@@ -1,0 +1,50 @@
+https://github.com/ahmadsufyan1/lab1.git
+Username: ahmadsufyan1
+Password: ahmad1234
+Email: ahmad_sufyan1@yahoo.com
+
+Index.php 
+Output: diff command  after change the file
+
+AHMADSADIQ@AHMADSADIQ-PC /C/Users/AHMADSADIQ/lab1 (master)
+$ git diff index.php
+diff --git a/index.php b/index.php
+index d245963..36ecabb 100644
+--- a/index.php
++++ b/index.php
+@@ -1,7 +1,7 @@
+ <html>
+ <head>
+   <meta charset="utf-8">
+-  <title>Login Form 4</title>
++  <title>student Login Form</title>
+   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+ </head>
+warning: LF will be replaced by CRLF in index.php.
+The file will have its original line endings in your working directory.
+
+AHMADSADIQ@AHMADSADIQ-PC /C/Users/AHMADSADIQ/lab1 (master)
+
+Pageb.php 
+Output: diff command  after change the file
+
+AHMADSADIQ@AHMADSADIQ-PC /C/Users/AHMADSADIQ/lab1 (master)
+$ git diff pageb.php
+diff --git a/pageb.php b/pageb.php
+index b8a5b4d..d00df49 100644
+--- a/pageb.php
++++ b/pageb.php
+@@ -1,8 +1,6 @@
+ <?php
+
+   $un = $_POST['username'];
+-
+-
+-
++// print echo
+   echo '<b>'. $un . '</b>';
+ ?>
+\ No newline at end of file
+warning: LF will be replaced by CRLF in pageb.php.
+The file will have its original line endings in your working directory.
